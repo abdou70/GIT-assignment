@@ -1,0 +1,40 @@
+  253  ls
+  254  history > nom1.txt
+  255  ls
+  256  pwd
+  257  history -1000 > ppp.txt
+  258  pwd
+  259  ls
+  260  cd Documents
+  261  ls
+  262  mkdir AMMI-GIT
+  263  ls
+  264  cd AMMI-GIT
+  265  mkdir ABDOU_NIANG
+  266  ls
+  267  pwd
+  268  ls
+  269  cd Documents
+  270  mkdir AMMI-git
+  271  ls
+  272  cd AMMI-git
+  273  mkdir ABDOU_NIANG
+  274  cd ..
+  275  pwd
+  276  ls
+  277  mkdir AMMI-first
+  278  mv AMMI-first AMMI-git
+  279  ls
+  280  cd AMMI-git
+  281  touch identity.txt
+  282  ls
+  283  nano identity.txt
+  284  ls
+  285  git init
+  286  git status
+  287  git add --all
+  288  git status
+  289  git commit -m "first_commit"
+  290  git branch -M main
+  291  git remote add origin https://github.com/abdou70/GIT-assignment.git
+  292  git push -u origin main
